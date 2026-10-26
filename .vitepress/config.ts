@@ -52,6 +52,7 @@ export default defineConfig({
                   { text: 'Top P', link: '/byok/options/top-p' },
                   { text: 'Repetition Penalty', link: '/byok/options/repetition-penalty' },
                   { text: 'Frequency Penalty', link: '/byok/options/frequency-penalty' },
+                  { text: 'Stop Sequences', link: '/byok/options/stop-sequences' },
                 ],
               },
             ]

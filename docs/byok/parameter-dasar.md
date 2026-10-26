@@ -15,6 +15,7 @@ Setelah BYOK aktif, buka kartu **"Opsi Lanjutan"** di pengaturan engine. Kamu ti
 | 5 | [`top_p`](./options/top-p) | 0.0-1.0 | 0.95 | Alternatif "fokus" sampling dari sisi kandidat kata |
 | 6 | [`repetition_penalty`](./options/repetition-penalty) | 0.0-2.0 | 1.1 | Menghukum pengulangan frasa yang sama |
 | 7 | [`frequency_penalty`](./options/frequency-penalty) | 0.0-2.0 | 0 | Menghukum kata yang muncul terlalu sering |
+| 8 | [`stop`](./options/stop-sequences) | maks 4 string | (kosong) | Mengakhiri respons saat teks tertentu muncul |
 
 ::: tip 💡 Mulai dari dua ini
 Belum tahu mana yang penting? Pahami dulu [Max Tokens](./options/max-tokens) dan [Context Window](./options/context-window) - keduanya menentukan berapa banyak riwayat yang diingat karakter dan seberapa aman jawaban dari terpotong.
@@ -32,7 +33,7 @@ Jumlah token maksimum yang boleh dihasilkan AI untuk satu jawaban (default 2048)
 
 ## Advanced Payload
 
-Bagi yang ingin mendorong provider lebih jauh, panel **Advanced Payload** memungkinkan menambahkan field apa pun ke request (mis. `tool_choice`, `top_k`, atau parameter khusus provider). Field berikut sudah direservasi dan tak dapat dipakai ulang: `stream`, `max_tokens`, `context_window`, `temperature`, `top_p`, `repetition_penalty`, `presence_penalty`.
+Bagi yang ingin mendorong provider lebih jauh, panel **Advanced Payload** memungkinkan menambahkan field apa pun ke request (mis. `tool_choice`, `top_k`, atau parameter khusus provider). Field berikut sudah direservasi dan tak dapat dipakai ulang: `stream`, `max_tokens`, `context_window`, `temperature`, `top_p`, `repetition_penalty`, `presence_penalty`, `stop`.
 
 ::: warning ⚠️ Parameter diabaikan diam-diam
 Tingkat dukungan antar provider berbeda. Parameter yang tidak didukung bisa diabaikan **tanpa error** - kalau slider tidak terasa efeknya, cek halaman panduan provider tersebut.
