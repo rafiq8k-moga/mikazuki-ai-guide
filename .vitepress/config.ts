@@ -41,6 +41,19 @@ export default defineConfig({
               { text: 'Pengenalan', link: '/byok/' },
               { text: 'Instalasi & Aktivasi', link: '/byok/instalasi' },
               { text: 'Parameter Dasar', link: '/byok/parameter-dasar' },
+              {
+                text: 'Opsi Parameter',
+                collapsed: true,
+                items: [
+                  { text: 'Stream', link: '/byok/options/stream' },
+                  { text: 'Max Tokens', link: '/byok/options/max-tokens' },
+                  { text: 'Context Window', link: '/byok/options/context-window' },
+                  { text: 'Temperature', link: '/byok/options/temperature' },
+                  { text: 'Top P', link: '/byok/options/top-p' },
+                  { text: 'Repetition Penalty', link: '/byok/options/repetition-penalty' },
+                  { text: 'Frequency Penalty', link: '/byok/options/frequency-penalty' },
+                ],
+              },
             ]
           },
           {
