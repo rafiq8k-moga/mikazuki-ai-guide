@@ -1,0 +1,1 @@
+import{U as e,W as t,nt as n,t as r}from"./chunks/framework.BPwQCpO3.js";var i=JSON.parse(`{"title":"Pengenalan","description":"","frontmatter":{},"headers":[],"relativePath":"pengenalan.md","filePath":"pengenalan.md"}`),a={name:`pengenalan.md`};function o(r,i,a,o,s,c){return n(),e(`div`,null,[...i[0]||=[t("",98)]])}var s=r(a,[[`render`,o]]);export{i as __pageData,s as default};
