@@ -15,8 +15,7 @@ By accessing or using the Service, you agree to be bound by these Terms of Servi
 By creating an account, accessing, or using Mikazuki AI in any way, you acknowledge that you have read, understood, and agree to be bound by:
 
 - These Terms of Service
-- Our [Privacy Policy](/posts/privacy)
-- Our [SFW Policy / Acceptable Use Policy](/posts/sfw-policy)
+- Our [Privacy Policy](./kebijakan-privasi)
 
 If you do not agree to any part of these Terms, you must discontinue use of the Service immediately.
 
