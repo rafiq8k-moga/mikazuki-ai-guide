@@ -59,7 +59,7 @@ Aktivasi BYOK cukup cepat: kamu hanya perlu satu API key dari provider pilihanmu
 
 > ⚠️ **Catatan Privasi:** API key-mu **disimpan lokal di perangkatmu** (IndexedDB + localStorage), bukan di database server. Ia hanya melewati server sebagai bagian payload request saat mengobrol. Jangan bagikan key-mu ke siapa pun.
 
-Setelah BYOK aktif, panel **"Opsi Lanjutan"** memberimu kendali atas parameter seperti `max_tokens`, `context_window`, `temperature`, dan lainnya. Penjelasan tiap parameter — termasuk tabel parameter kreativitas dan Advanced Payload — dibahas di halaman [Parameter Dasar](./parameter-dasar).
+Setelah BYOK aktif, panel **"Opsi Dasar"** memberimu kendali atas parameter seperti `max_tokens`, `context_window`, `temperature`, dan lainnya. Penjelasan tiap parameter — termasuk tabel parameter kreativitas dan Advanced Payload — dibahas di halaman [Parameter Dasar](./parameter-dasar).
 
 ---
 
@@ -98,6 +98,6 @@ Periksa API key dan *Base URL* (untuk OpenAI Compatible), lalu tekan tombol 🔍
 ## Selanjutnya
 
 - Siapkan API key dan aktifkan BYOK lewat panduan [Instalasi & Aktivasi](./instalasi).
-- Kenali parameter di panel Opsi Lanjutan lewat halaman [Parameter Dasar](./parameter-dasar).
+- Kenali parameter di panel Opsi Dasar lewat halaman [Parameter Dasar](./parameter-dasar).
 - Pakai **preset Context Window** `1M` untuk percakapan super panjang dengan karakter yang konsisten memori — detail di [Parameter Dasar](./parameter-dasar).
 - Kelola memori karakter bersama fitur **Hapus Lanjutan (Dynamic Delete)** di dalam aplikasi.

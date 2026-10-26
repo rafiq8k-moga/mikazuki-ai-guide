@@ -47,5 +47,5 @@ Periksa API key dan *Base URL*, lalu tekan tombol 🔍 lagi. Jika provider menol
 
 ## Selanjutnya
 
-- Kenali isi panel **"Opsi Lanjutan"** di halaman [Parameter Dasar](./parameter-dasar).
+- Kenali isi panel **"Opsi Dasar"** di halaman [Parameter Dasar](./parameter-dasar).
 - Kembali ke [Pengenalan BYOK](./) untuk melihat daftar provider dan fitur yang tetap berjalan.

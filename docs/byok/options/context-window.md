@@ -4,7 +4,7 @@ title: Context Window
 
 # Context Window
 
-Opsi `context_window` ada di panel **BYOK**, bagian **Opsi Lanjutan** di pengaturan engine (*Settings → Engine*), lengkap dengan chip preset cepat: `Auto` `8K` `32K` `128K` `1M`. Nilai defaultnya **Auto (0)**.
+Opsi `context_window` ada di panel **BYOK**, bagian **Opsi Dasar** di pengaturan engine (*Settings → Engine*), lengkap dengan chip preset cepat: `Auto` `8K` `32K` `128K` `1M`. Nilai defaultnya **Auto (0)**.
 
 Ini adalah *budget* total untuk **satu request** ke AI. Semua yang dikirim ke provider harus muat di angka ini:
 
@@ -15,7 +15,7 @@ Ini adalah *budget* total untuk **satu request** ke AI. Semua yang dikirim ke pr
 
 Bila totalnya melebihi angka ini, Mikazuki memangkas bagian yang paling aman dipangkas, yaitu riwayat chat paling lama. Makin besar window, makin jauh karakter mengingat percakapan kamu.
 
-**Prasyarat membaca halaman ini:** sudah mengaktifkan BYOK dan tahu letak kartu "Opsi Lanjutan" di panel [Parameter Dasar](../parameter-dasar).
+**Prasyarat membaca halaman ini:** sudah mengaktifkan BYOK dan tahu letak kartu "Opsi Dasar" di panel [Parameter Dasar](../parameter-dasar).
 
 ## Apa yang Mengisi Window
 

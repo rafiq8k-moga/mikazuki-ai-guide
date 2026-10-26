@@ -4,7 +4,7 @@ title: Max Tokens
 
 # Max Tokens
 
-`max_tokens` mengatur batas maksimum token output untuk **satu jawaban**. Default di Mikazuki: **2048**, dan bisa diatur lewat panel BYOK di **Settings → Engine** (kartu Opsi Lanjutan) menggunakan preset chip atau input angka.
+`max_tokens` mengatur batas maksimum token output untuk **satu jawaban**. Default di Mikazuki: **2048**, dan bisa diatur lewat panel BYOK di **Settings → Engine** (kartu Opsi Dasar) menggunakan preset chip atau input angka.
 
 Satu token kira-kira setara 3/4 kata. Jadi ±100 token ≈ 75 kata - angka kasar, cukup untuk membayangkan skala, bukan konversi presisi.
 

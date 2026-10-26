@@ -4,7 +4,7 @@ title: Stream
 
 # Stream (`payload: stream`)
 
-`stream` mengatur **cara jawaban dikirim** ke UI. Nilainya boolean (on/off), dan di panel **"Opsi Lanjutan"** pengaturan engine tampil sebagai toggle. **Defaultnya aktif** dan itulah yang direkomendasikan.
+`stream` mengatur **cara jawaban dikirim** ke UI. Nilainya boolean (on/off), dan di panel **"Opsi Dasar"** pengaturan engine tampil sebagai toggle. **Defaultnya aktif** dan itulah yang direkomendasikan.
 
 Saat aktif (`stream: true`), jawaban dikirim bertahap: server mengirim potongan kecil (chunk) begitu token siap, bukan menunggu seluruh jawaban selesai. Di UI Mikazuki, teksnya muncul karakter demi karakter - efek *typewriter* yang kamu lihat saat AI mengetik.
 

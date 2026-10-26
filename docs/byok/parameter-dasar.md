@@ -4,7 +4,7 @@ title: Parameter Dasar
 
 # Parameter Dasar di Panel BYOK
 
-Setelah BYOK aktif, buka kartu **"Opsi Lanjutan"** di pengaturan engine. Kamu tidak harus mengerti semuanya - semua parameter punya nilai default yang berperilaku baik. Halaman ini peta ringkas; klik nama parameter untuk panduan lengkapnya.
+Setelah BYOK aktif, buka kartu **"Opsi Dasar"** di pengaturan engine. Kamu tidak harus mengerti semuanya - semua parameter punya nilai default yang berperilaku baik. Halaman ini peta ringkas; klik nama parameter untuk panduan lengkapnya.
 
 | # | Parameter | Rentang | Default | One-liner |
 | --- | --- | --- | --- | --- |
