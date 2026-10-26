@@ -45,14 +45,15 @@ export default defineConfig({
                 text: 'Opsi Parameter',
                 collapsed: true,
                 items: [
-                  { text: 'Stream', link: '/byok/options/stream' },
                   { text: 'Max Tokens', link: '/byok/options/max-tokens' },
                   { text: 'Context Window', link: '/byok/options/context-window' },
                   { text: 'Temperature', link: '/byok/options/temperature' },
                   { text: 'Top P', link: '/byok/options/top-p' },
                   { text: 'Repetition Penalty', link: '/byok/options/repetition-penalty' },
                   { text: 'Frequency Penalty', link: '/byok/options/frequency-penalty' },
+                  { text: 'Stream', link: '/byok/options/stream' },
                   { text: 'Stop Sequences', link: '/byok/options/stop-sequences' },
+                  { text: 'Message Parsers', link: '/byok/options/message-parsers' },
                 ],
               },
             ]

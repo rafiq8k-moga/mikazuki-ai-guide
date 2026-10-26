@@ -8,14 +8,15 @@ Setelah BYOK aktif, buka kartu **"Opsi Lanjutan"** di pengaturan engine. Kamu ti
 
 | # | Parameter | Rentang | Default | One-liner |
 | --- | --- | --- | --- | --- |
-| 1 | [`stream`](./options/stream) | on/off | Aktif | Teks muncul mengalir, bukan menunggu jawaban utuh |
-| 2 | [`max_tokens`](./options/max-tokens) | integer | 2048 | Batas panjang jawaban + jaminan ruang jawaban |
-| 3 | [`context_window`](./options/context-window) | Auto-1M | Auto | Budget total riwayat yang bisa diingat karakter |
-| 4 | [`temperature`](./options/temperature) | 0.0-2.0 | 0.85 | Makin tinggi makin liar/imajinatif, makin rendah makin stabil |
-| 5 | [`top_p`](./options/top-p) | 0.0-1.0 | 0.95 | Alternatif "fokus" sampling dari sisi kandidat kata |
-| 6 | [`repetition_penalty`](./options/repetition-penalty) | 0.0-2.0 | 1.1 | Menghukum pengulangan frasa yang sama |
-| 7 | [`frequency_penalty`](./options/frequency-penalty) | 0.0-2.0 | 0 | Menghukum kata yang muncul terlalu sering |
+| 1 | [`max_tokens`](./options/max-tokens) | integer | 2048 | Batas panjang jawaban + jaminan ruang jawaban |
+| 2 | [`context_window`](./options/context-window) | Auto-1M | Auto | Budget total riwayat yang bisa diingat karakter |
+| 3 | [`temperature`](./options/temperature) | 0.0-2.0 | 0.85 | Makin tinggi makin liar/imajinatif, makin rendah makin stabil |
+| 4 | [`top_p`](./options/top-p) | 0.0-1.0 | 0.95 | Alternatif "fokus" sampling dari sisi kandidat kata |
+| 5 | [`repetition_penalty`](./options/repetition-penalty) | 0.0-2.0 | 1.1 | Menghukum pengulangan frasa yang sama |
+| 6 | [`frequency_penalty`](./options/frequency-penalty) | 0.0-2.0 | 0 | Menghukum kata yang muncul terlalu sering |
+| 7 | [`stream`](./options/stream) | on/off | Aktif | Teks muncul mengalir, bukan menunggu jawaban utuh |
 | 8 | [`stop`](./options/stop-sequences) | maks 4 string | (kosong) | Mengakhiri respons saat teks tertentu muncul |
+| 9 | [`message-parsers`](./options/message-parsers) | maks 8 regex | (kosong) | Opsi klien: transformasi teks via regex sebelum dikirim |
 
 ::: tip 💡 Mulai dari dua ini
 Belum tahu mana yang penting? Pahami dulu [Max Tokens](./options/max-tokens) dan [Context Window](./options/context-window) - keduanya menentukan berapa banyak riwayat yang diingat karakter dan seberapa aman jawaban dari terpotong.
