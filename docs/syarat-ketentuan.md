@@ -163,7 +163,7 @@ AI responses should not be taken as medical, legal, financial, or professional a
 
 ## 10. Acceptable Use Policy (SFW Policy)
 
-Mikazuki AI enforces a **Safe for Work (SFW) Policy** for interactions with characters marked as minors (under 16 years of age). This policy is documented in a separate [SFW Policy](/posts/sfw-policy) document that forms part of these Terms.
+Mikazuki AI enforces a **Safe for Work (SFW) Policy** for interactions with characters marked as minors (under 16 years of age). This policy is documented in a separate  document that forms part of these Terms.
 
 Key points:
 - Any sexually explicit, suggestive, or otherwise inappropriate content directed at minor characters is **strictly prohibited**.
@@ -213,7 +213,7 @@ We are not responsible for the content, policies, or practices of third-party se
 
 ## 13. Privacy
 
-Your privacy is important to us. Please refer to our separate **[Privacy Policy](/posts/privacy)** for detailed information about:
+Your privacy is important to us. Please refer to our separate **[Privacy Policy](./kebijakan-privasi)** for detailed information about:
 
 - What personal data we collect (email, name, device info)
 - How we use and store your data
