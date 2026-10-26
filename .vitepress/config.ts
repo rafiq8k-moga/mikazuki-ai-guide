@@ -58,6 +58,12 @@ export default defineConfig({
               { text: 'Featherless AI', link: '/providers/featherless' },
               { text: 'NanoGPT', link: '/providers/nanogpt' },
               { text: 'Venus Chub AI', link: '/providers/venus' },
+              { text: 'Chutes', link: '/providers/chutes' },
+              { text: 'Arli AI', link: '/providers/arli' },
+              { text: 'Mancer', link: '/providers/mancer' },
+              { text: 'AI Horde', link: '/providers/horde' },
+              { text: 'NovelAI', link: '/providers/novelai' },
+              { text: 'OpenAI Compatible', link: '/providers/openaicompat' },
             ]
           },
           {

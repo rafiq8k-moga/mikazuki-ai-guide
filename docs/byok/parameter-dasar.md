@@ -6,7 +6,7 @@ title: Parameter Dasar
 
 Setelah BYOK aktif, buka kartu **"Opsi Lanjutan"** di pengaturan engine. Kamu tidak harus mengerti semuanya — semua parameter punya nilai default yang berperilaku baik. Tapi pahami dua yang paling penting: `max_tokens` dan `context_window`.
 
-## Max Tokens (`payload: max_tokens`)
+## Max Tokens (`payload: max_tokens`) {#max-tokens}
 
 Jumlah token maksimum yang boleh dihasilkan AI untuk satu jawaban (default 2048). Nilai ini punya **peran ganda**:
 
@@ -18,7 +18,7 @@ Konsekuensinya:
 - Angka lebih besar → jawaban bisa lebih panjang, tetapi riwayat chat yang bisa muat jadi **lebih sedikit**.
 - Angka lebih kecil → jawaban pendek, tetapi memori riwayat makin lega.
 
-## Context Window (`payload: context_window`)
+## Context Window (`payload: context_window`) {#context-window}
 
 *Budget* total satu request: system prompt + memori + riwayat + ruang jawaban; semuanya harus muat di angka ini.
 
