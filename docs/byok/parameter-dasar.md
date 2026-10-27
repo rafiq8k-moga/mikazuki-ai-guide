@@ -17,6 +17,7 @@ Setelah BYOK aktif, buka kartu **"Opsi Dasar"** di pengaturan engine. Kamu tidak
 | 7 | [`stream`](./options/stream) | on/off | Aktif | Teks muncul mengalir, bukan menunggu jawaban utuh |
 | 8 | [`stop`](./options/stop-sequences) | maks 4 string | (kosong) | Mengakhiri respons saat teks tertentu muncul |
 | 9 | [`message-parsers`](./options/message-parsers) | maks 8 regex | (kosong) | Opsi klien: transformasi teks via regex sebelum dikirim |
+| 10 | [`reasoning`](./options/reasoning) | effort / budget | Off | Atur token berpikir model (low-minimal-max) di tab Prompts |
 
 ::: tip 💡 Mulai dari dua ini
 Belum tahu mana yang penting? Pahami dulu [Max Tokens](./options/max-tokens) dan [Context Window](./options/context-window) - keduanya menentukan berapa banyak riwayat yang diingat karakter dan seberapa aman jawaban dari terpotong.

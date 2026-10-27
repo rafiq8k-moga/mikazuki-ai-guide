@@ -55,6 +55,7 @@ export default defineConfig({
                   { text: 'Stream', link: '/byok/options/stream' },
                   { text: 'Stop Sequences', link: '/byok/options/stop-sequences' },
                   { text: 'Message Parsers', link: '/byok/options/message-parsers' },
+                  { text: 'Reasoning', link: '/byok/options/reasoning' },
                 ],
               },
             ]
