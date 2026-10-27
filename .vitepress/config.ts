@@ -32,6 +32,7 @@ export default defineConfig({
             collapsed: false,
             items: [
               { text: 'Pengenalan', link: '/pengenalan' },
+              { text: 'Data Karakter dan Memori', link: '/fitur/data-karakter' },
             ]
           },
           {
