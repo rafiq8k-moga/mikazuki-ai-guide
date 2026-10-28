@@ -56,6 +56,9 @@ export default defineConfig({
                   { text: 'Stop Sequences', link: '/byok/options/stop-sequences' },
                   { text: 'Message Parsers', link: '/byok/options/message-parsers' },
                   { text: 'Reasoning', link: '/byok/options/reasoning' },
+      { text: 'Custom System Prompt', link: '/byok/options/system-prompt' },
+      { text: 'Custom UJB', link: '/byok/options/custom-ujb' },
+      { text: 'Bot Response Prefilling', link: '/byok/options/prefill' },
                 ],
               },
             ]
