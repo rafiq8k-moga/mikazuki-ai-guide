@@ -51,11 +51,3 @@ Instruksi tambahan yang ditambahkan **setelah** instruksi UJB default pada pesan
 Mengganti **awalan internal respons bot** dengan teks milikmu untuk memaksa model melanjutkan dalam format tertentu. Off/kosong = awalan default dipakai verbatim. Panduan penuh: [Bot Response Prefilling](./options/prefill).
 
 Ketiganya khusus mode BYOK, default mati, tersimpan di perangkat kamu (bukan server), dan saat off/kosong tidak mengubah prompt sama sekali.
-
-## Advanced Payload
-
-Bagi yang ingin mendorong provider lebih jauh, panel **Advanced Payload** memungkinkan menambahkan field apa pun ke request (mis. `tool_choice`, `top_k`, atau parameter khusus provider). Field berikut sudah direservasi dan tak dapat dipakai ulang: `stream`, `max_tokens`, `context_window`, `temperature`, `top_p`, `repetition_penalty`, `presence_penalty`, `stop`.
-
-::: warning ⚠️ Parameter diabaikan diam-diam
-Tingkat dukungan antar provider berbeda. Parameter yang tidak didukung bisa diabaikan **tanpa error** - kalau slider tidak terasa efeknya, cek halaman panduan provider tersebut.
-:::

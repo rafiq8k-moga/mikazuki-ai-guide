@@ -41,7 +41,9 @@ export default defineConfig({
             items: [
               { text: 'Pengenalan', link: '/byok/' },
               { text: 'Instalasi & Aktivasi', link: '/byok/instalasi' },
-              { text: 'Parameter Dasar', link: '/byok/parameter-dasar' },
+              { text: 'Opsi Parameter Dasar', link: '/byok/parameter-dasar' },
+              { text: 'Parameter Lanjutan', link: '/byok/parameter-lanjutan' },
+              { text: 'Opsi Parameter Lanjutan', link: '/byok/advanced-options/' },
               {
                 text: 'Opsi Parameter',
                 collapsed: true,
