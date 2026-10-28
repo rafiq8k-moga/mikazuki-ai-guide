@@ -18,6 +18,9 @@ Setelah BYOK aktif, buka kartu **"Opsi Dasar"** di pengaturan engine. Kamu tidak
 | 8 | [`stop`](./options/stop-sequences) | maks 4 string | (kosong) | Mengakhiri respons saat teks tertentu muncul |
 | 9 | [`message-parsers`](./options/message-parsers) | maks 8 regex | (kosong) | Opsi klien: transformasi teks via regex sebelum dikirim |
 | 10 | [`reasoning`](./options/reasoning) | effort / budget | Off | Atur token berpikir model (low-minimal-max) di tab Prompts |
+| 11 | [`custom system prompt`](./options/system-prompt) | maks 4000 karakter | Off | Tempel system prompt sendiri, digabung DI ATAS default di tab Prompts |
+| 12 | [`custom ujb`](./options/custom-ujb) | maks 4000 karakter | Off | Instruksi UJB tambahan setelah UJB default di tab Prompts |
+| 13 | [`prefilling`](./options/prefill) | maks 2000 karakter | Off | Ganti awalan internal respons bot dengan teks milikmu di tab Prompts |
 
 ::: tip 💡 Mulai dari dua ini
 Belum tahu mana yang penting? Pahami dulu [Max Tokens](./options/max-tokens) dan [Context Window](./options/context-window) - keduanya menentukan berapa banyak riwayat yang diingat karakter dan seberapa aman jawaban dari terpotong.
@@ -32,6 +35,22 @@ Jumlah token maksimum yang boleh dihasilkan AI untuk satu jawaban (default 2048)
 ### Context Window (`payload: context_window`) {#context-window}
 
 *Budget* total satu request: system prompt + memori + riwayat + ruang jawaban; semuanya harus muat di angka ini. **Auto** (default) mendeteksi per model; override manual hingga **1.000.000 token** untuk model long-context. Window sesuai kapasitas asli model = karakter bisa mengingat percakapan jauh ke belakang. Panduan penuh: [Context Window](./options/context-window).
+
+## Tiga kontrol kustom di tab Prompts
+
+### Custom System Prompt {#custom-system-prompt}
+
+Teks system prompt milikmu yang ditempel **di atas** prompt default - bukan menimpanya, aturan keselamatan aplikasi tetap aktif. Mendukung placeholder `{{user}}`/`{{char}}`. Panduan penuh: [Custom System Prompt](./options/system-prompt).
+
+### Custom UJB {#custom-ujb}
+
+Instruksi tambahan yang ditambahkan **setelah** instruksi UJB default pada pesan terakhir - matrix UJB default tetap utuh. Panduan penuh: [Custom UJB](./options/custom-ujb).
+
+### Bot Response Prefilling {#prefilling}
+
+Mengganti **awalan internal respons bot** dengan teks milikmu untuk memaksa model melanjutkan dalam format tertentu. Off/kosong = awalan default dipakai verbatim. Panduan penuh: [Bot Response Prefilling](./options/prefill).
+
+Ketiganya khusus mode BYOK, default mati, tersimpan di perangkat kamu (bukan server), dan saat off/kosong tidak mengubah prompt sama sekali.
 
 ## Advanced Payload
 
