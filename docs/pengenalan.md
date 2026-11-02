@@ -141,6 +141,8 @@ Berbeda dengan versi lama yang memusatkan semua beban pada server aplikasi monol
 
 ## Bab 5: Fitur-Fitur Utama & Mekanisme Kerjanya
 
+Uluran panjang setiap fitur - dari chat dasar, memori, group chat, sampai pengaturan akun dan keamanan percakapan - dirangkum langsung pada bagian **Memulai** di menu samping dokumentasi ini.
+
 ### Roleplay Bahasa Indonesia Alami
 Salah satu keunggulan terbesar Mikazuki AI adalah instruksi sistem yang dirancang khusus untuk memahami budaya percakapan berbahasa Indonesia:
 * Mampu membedakan panggilan formal (*Anda, Saya*), kasual (*Aku, Kamu*), akrab (*Gua, Lu*), hingga sebutan khas anime (*Senpai, Sensei, Master*).

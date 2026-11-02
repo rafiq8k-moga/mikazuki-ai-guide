@@ -41,6 +41,7 @@ export default defineConfig({
               { text: 'Bond & Kalender', link: '/fitur/bond-dan-kalender' },
               { text: 'VIP & Backup', link: '/fitur/membership-backup' },
               { text: 'Karakter Buatanmu', link: '/fitur/karakter-buatanmu' },
+              { text: 'Pengaturan & Akun', link: '/fitur/pengaturan' },
             ]
           },
           {
