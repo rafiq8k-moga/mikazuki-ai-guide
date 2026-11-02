@@ -33,6 +33,7 @@ export default defineConfig({
             items: [
               { text: 'Pengenalan', link: '/pengenalan' },
               { text: 'Data Karakter dan Memori', link: '/fitur/data-karakter' },
+              { text: 'Chat Dasar', link: '/fitur/chat-dasar' },
             ]
           },
           {
