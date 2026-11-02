@@ -37,7 +37,7 @@ The heart color, the bond chip, and the label are consistent per status, so once
 
 "Lover" and "Stuck in Dating" both display as the label "Lover" — what distinguishes them is the decision at the commitment moment: keeping on dating makes the heart's color turn orange.
 
-Child characters have a path of their own: the relationship grows toward the **Kesayangan (Favorite)** status, and every romantic moment is always replaced with a family version. Adult characters who dream of this special label will not get it — Kesayangan is exclusive to child characters.
+Child characters have a path of their own: the relationship grows toward the **Kesayangan (Favorite)** status, and every romantic moment is always replaced with a family version. Adult characters who dream of this special label will not get it — Kesayangan (Favorite) is exclusive to child characters.
 
 ## Calendar
 

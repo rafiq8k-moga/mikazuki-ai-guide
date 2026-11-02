@@ -22,7 +22,7 @@ The code is read on the server, including fixing letters that got swapped — ju
 
 ## Backup & Restore
 
-Backup lives in **Settings → Account** inside the **"Cloud Backup"** card, together with its short pitch: *"Your chats will be securely backed up with a password. Only you can decrypt it."* What gets backed up is broad: all chats and messages, Summaries, Chat Memories and global memories, chat translations, global and per-chat wallpapers, even records of chats you just deleted — so removed data doesn't "resurrect" during a restore on another device.
+Backup lives in **Settings → Account** inside the **"Cloud Backup"** card, together with its short pitch: *"Your chats will be securely backed up with a password. Only you can decrypt it."* What gets backed up is broad: all chats and messages, Summaries, Chat Memories and Global Memories, chat translations, global and per-chat wallpapers, even records of chats you just deleted — so removed data doesn't "resurrect" during a restore on another device.
 
 The key is one thing: **the backup password, minimum 12 characters**. Data is encrypted on your own device (a PBKDF2-SHA256 key derived from the password with 310,000 iterations → AES-256-GCM, gzip-compressed first) before it is sent, so the server only stores a random blob and never sees the contents. The consequence is serious and worth holding onto: **forgetting the password = the backup contents can never be opened by anyone, including us**. Tick *"Remember password for this session (for auto-backup)"* if you want the password reused only until this browser session ends.
 

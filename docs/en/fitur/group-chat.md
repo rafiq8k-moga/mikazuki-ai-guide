@@ -22,6 +22,6 @@ You can still direct who replies even while Random mode is on. **Mention the nam
 
 ## Limitations
 
-A few things about group chat are deliberately kept simple. **Bond and hearts stay per character, not per group** — bond XP, level, and relationship status are attached to your chat with each individual character and don't pile up because they share one group (see Bond & Calendar). **The AI engine choice also follows your global settings** — system mode (Mikazuki) as well as BYOK set in Settings are used by the group as a whole; there is no separate per-group engine choice.
+A few things about group chat are deliberately kept simple. **Bond and hearts stay per character, not per group** — bond XP, level, and relationship status are attached to your chat with each individual character and don't pile up because they share one group (see [Bond & Calendar](/en/fitur/bond-calendar)). **The AI engine choice also follows your global settings** — system mode (Mikazuki) as well as BYOK set in Settings are used by the group as a whole; there is no separate per-group engine choice.
 
 What is stored per group on your device includes: the name, the bio, the member list with its speaker colors, the wallpaper, the persona, and the system note. Because 1 message is only answered by 1 speaker, member-to-member interaction is best directed through name mentions, instead of hoping all the characters race to answer. With these two limitations understood, even big groups with dozens of characters remain comfortable to manage.

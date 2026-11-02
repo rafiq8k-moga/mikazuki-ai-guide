@@ -64,7 +64,7 @@ System mode only swaps the "brain" that processes answers; every Mikazuki featur
 - ✅ **Summary / Auto-Summarize** — conversation batch summaries are still injected (the latest summary batch per request).
 - ✅ **Persona, System Notes, character language style** — identical.
 - ✅ **Bond System** — bond XP and levels still grow.
-- ✅ **Dynamic Delete (Hapus Lanjutan)** — memory curation stays available.
+- ✅ **Advanced Delete (Dynamic Delete)** — memory curation stays available.
 
 ---
 
@@ -104,4 +104,4 @@ System mode caps output length per reply for quota fairness. If you need longer,
 
 - Want the model and parameters your way? Step into [BYOK (Bring Your Own Key)](../byok/).
 - Get to know the character memory architecture in the [Introduction](/en/introduction).
-- Re-curate your character's memory via **Dynamic Delete (Hapus Lanjutan)** inside the app.
+- Re-curate your character's memory via **Advanced Delete (Dynamic Delete)** inside the app.

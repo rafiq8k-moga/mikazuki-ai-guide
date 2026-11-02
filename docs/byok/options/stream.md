@@ -29,7 +29,7 @@ Saat OFF (`stream: false`), server **menyelesaikan seluruh jawaban dulu** baru m
 Alasan paling umum untuk mematikannya:
 
 - **Provider third-party dengan streaming parsial** - sebagian provider OpenAI-compatible menggarap streaming-nya kurang rapi: chunk `usage` di akhir beda bentuk dari standar, atau *tool-calling* tidak didukung di mode streaming. Kalau model di provider-mu terlihat error atau gagal hanya saat stream ON, coba matikan.
-- **Integrasi & debugging** - jawaban JSON utuh lebih mudah dibaca saat menguji payload atau mencari penyebab masalah di [Advanced Payload](../parameter-dasar#advanced-payload).
+- **Integrasi & debugging** - jawaban JSON utuh lebih mudah dibaca saat menguji payload atau mencari penyebab masalah di panel [Advanced Payload](../parameter-dasar).
 
 ::: tip 💡 Saran untuk pengguna biasa
 Kalau tidak ada masalah apa-apa, **biarkan stream aktif**. Untuk pemakaian chat sehari-hari, streaming umumnya tidak memiliki kekurangan - hanya pengalaman yang jauh lebih responsif.

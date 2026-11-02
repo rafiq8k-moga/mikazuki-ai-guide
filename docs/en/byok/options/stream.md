@@ -29,7 +29,7 @@ When OFF (`stream: false`), the server **completes the entire answer first**, th
 The most common reasons to turn it off:
 
 - **Third-party providers with partial streaming** — some OpenAI-compatible providers implement their streaming sloppily: the `usage` chunk at the end has a shape different from the standard, or *tool-calling* isn't supported in streaming mode. If the model on your provider looks broken or fails only while stream is ON, try turning it off.
-- **Integration & debugging** — a whole JSON answer is easier to read when testing payloads or hunting for the cause of a problem in [Advanced Payload](../parameter-dasar#advanced-payload).
+- **Integration & debugging** — a whole JSON answer is easier to read when testing payloads or hunting for the cause of a problem in the [Advanced Payload](../parameter-dasar) panel.
 
 ::: tip 💡 Advice for regular users
 If nothing is wrong at all, **leave stream on**. For everyday chat, streaming generally has no downside — only a far more responsive experience.
