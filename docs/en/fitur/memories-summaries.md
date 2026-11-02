@@ -24,7 +24,7 @@ Unlike Chat Memories, which live on your device, Global Memories are stored on M
 
 ## Automatic Summaries
 
-Every **20 complete messages**, the system automatically summarizes the conversation in the background, directly from the chat page — no button for you to press. The results appear in the Summary tab of the Character Data page, grouped per batch like "Messages 1–20", "Messages 21–40", and so on. Summaries are stored locally in IndexedDB and form the backbone of long-term memory: when the model is given context, the recap of the latest batch is sent along to keep token usage light.
+Every **20 complete messages**, the system automatically summarizes the conversation in the background, directly from the chat page — no button for you to press. The results appear in the Summary tab of the Character Data page, grouped per batch like "Messages 1-20", "Messages 21-40", and so on. Summaries are stored locally in IndexedDB and form the backbone of long-term memory: when the model is given context, the recap of the latest batch is sent along to keep token usage light.
 
 Batches that fail to generate don't disappear silently; they are marked *"This batch failed to summarize."* and are retried automatically on the next run. If you want to start from zero, use **selection mode** in the chat list (see [Basic Chat](/en/fitur/basic-chat)): select one or more chats, then tap **Re-Summary**. The app will firmly ask: *"Reset all summaries and memories for this chat, then regenerate? Global memories (VIP) will also be cleared."* Once finished you'll hear *"Summary reset for {count} chats."* — then the summaries are rebuilt from the entire history.
 

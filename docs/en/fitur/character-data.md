@@ -20,7 +20,7 @@ Summaries are generated automatically from the chat page every 20 complete messa
 
 ## Summary
 
-This tab lists the conversation summaries that are generated automatically every **20 complete messages** from the chat page. Summaries are shown per batch, e.g. "Messages 1–20". Batches that failed to generate are marked, so you know which parts were not covered.
+This tab lists the conversation summaries that are generated automatically every **20 complete messages** from the chat page. Summaries are shown per batch, e.g. "Messages 1-20". Batches that failed to generate are marked, so you know which parts were not covered.
 
 ## Memories
 
