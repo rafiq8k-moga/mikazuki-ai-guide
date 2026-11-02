@@ -18,8 +18,8 @@ hero:
 features:
   - title: Chat Karakter AI berbahasa Indonesia
     details: Riwayat pesan, pin chat, dan preferensi urutan tersimpan lokal di perangkatmu (IndexedDB) lewat halaman Chat Dasar.
-  - title: BYOK (17+ provider)
-    details: Bawa API key sendiri dan atur parameter model lanjutan dari 17+ penyedia AI, termasuk opsi OpenAI Compatible.
+  - title: BYOK (16 provider)
+    details: Bawa API key sendiri dan atur parameter model lanjutan dari 16 penyedia AI, termasuk opsi OpenAI Compatible.
   - title: Memori & Bond System
     details: Ringkasan otomatis, Chat Memories, Global Memories lintas chat, serta ikatan (bond) berlevel yang berkembang tiap obrolan.
   - title: Group Chat

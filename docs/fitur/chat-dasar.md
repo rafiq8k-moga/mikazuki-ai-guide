@@ -31,7 +31,7 @@ Balasan karakter yang panjang otomatis dipecah menjadi beberapa bubble per parag
 
 **Pesan milikmu** punya dua tombol melayang di sisi kirinya: **edit (ikon pensil ✎)** dan **hapus**. Menghapus sebuah pesan juga menghapus semua pesan setelahnya dan meminta konfirmasi: *"Hapus pesan ini dan semua pesan setelahnya? Tindakan ini tidak dapat dibatalkan."* Di bawah bubble terdapat jam pengiriman serta status pesan: ikon jam saat masih dikirim, satu centang saat terkirim, dan centang ganda saat sedang diproses atau selesai. Setiap pesan juga diberi nomor urut seperti `#12` sebagai identitas posisinya dalam percakapan.
 
-**Pesan balasan bot** menyediakan tombol **Salin**, tombol **regenerate (ikon panas putar)** untuk membuat ulang jawaban, dan nomor urut pesan. Bila model yang kamu pakai mendukung proses penalaran (*reasoning*), muncul blok **"berpikir"** yang bisa dilipat di atas bubble - saat aktif ditandai *"Sedang berpikir..."*, dan setelah jawaban mengalir otomatis terlipat menjadi *"Tampilkan proses berpikir"*. Pesan error sistem tampil sebagai baris tersendiri dengan tombol salin.
+**Pesan balasan bot** menyediakan tombol **Salin**, tombol **regenerate (ikon panah putar)** untuk membuat ulang jawaban, dan nomor urut pesan. Bila model yang kamu pakai mendukung proses penalaran (*reasoning*), muncul blok **"berpikir"** yang bisa dilipat di atas bubble - saat aktif ditandai *"Sedang berpikir..."*, dan setelah jawaban mengalir otomatis terlipat menjadi *"Tampilkan proses berpikir"*. Pesan error sistem tampil sebagai baris tersendiri dengan tombol salin.
 
 ## Detail Chat
 

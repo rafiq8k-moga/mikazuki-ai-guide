@@ -8,7 +8,7 @@ Balasan karakter tidak selalu datang dalam bahasamu, dan tampilan baca pun seler
 
 ## Terjemahan Pesan
 
-Setiap balasan bot punya tombol **"Lihat terjemahan"** berikon bahasa di bawah bubble. Terjemahan ini aktif saat bahasa antarmuka bukan Inggris - dengan bahasa UI Indonesia, balasan AI diterjemahkan ke bahasa Indonesia, mengikuti bahasa AI yang disetel untuk karakter tersebut. Yang penting dipahami: terjemahan bersifat **hanya tampilan**. Hasilnya disimpan terpisah di perangkatmu (IndexedDB) dan **tidak pernah ikut dalam data pesan maupun payload yang dikirim ke AI** - teks asli selalu yang dipakai percakapan.
+Setiap balasan bot punya tombol **"Lihat terjemahan"** berikon bahasa di bawah bubble. Terjemahan aktif saat bahasa antarmuka bukan Inggris: hasilnya ditampilkan dalam bahasa UI yang kamu pakai, sementara bahasa AI yang disetel untuk karakter hanya berperan sebagai bahasa sumber. Jika bahasa sumber itu sama dengan bahasa target UI, pesan dilewati dan tidak diterjemahkan. Yang penting dipahami: terjemahan bersifat **hanya tampilan**. Hasilnya disimpan terpisah di perangkatmu (IndexedDB) dan **tidak pernah ikut dalam data pesan maupun payload yang dikirim ke AI** - teks asli selalu yang dipakai percakapan.
 
 Pengerjaannya dilakukan **per paragraf** di latar belakang, termasuk menerjemahkan ulang riwayat lama secara diam-diam (*backfill*). Karena itu hasilnya bisa **parsial**: paragraf yang sudah selesai langsung tampil, yang belum selesai ditandai kerangka animasi, dan yang gagal diterjemahkan jatuh kembali ke teks aslinya - jadi kamu tidak pernah menunggu seluruh pesan untuk mulai membaca.
 
