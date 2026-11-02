@@ -4,7 +4,7 @@ title: Bond & Kalender
 
 # Bond & Kalender
 
-Setiap interaksi dengan sebuah karakter membina **ikatan (bond)** - semacam kedekatan yang ukurannya bisa kamu lihat. Ikatan tampil berupa **hati dengan angka** di sisi kanan setiap baris chat, dan berkembang seiring kalian mengobrol. Pasangan halamannya, **Kalender**, membantumu menghafal tanggal-tanggal penting seputar para karakter - terutama ulang tahunnya - sehingga tidak ada momen yang terlewat.
+Setiap interaksi dengan sebuah karakter membina **ikatan (bond)** - semacam kedekatan yang ukurannya bisa kamu lihat. Ikatan tampil berupa **hati dengan angka** di sisi kanan setiap baris chat karakter (bukan grup), dan berkembang seiring kalian mengobrol. Pasangan halamannya, **Kalender**, membantumu menghafal tanggal-tanggal penting seputar para karakter - terutama ulang tahunnya - sehingga tidak ada momen yang terlewat.
 
 ## Apa Itu Bond
 
@@ -29,10 +29,13 @@ Warna hati, chip ikatan, dan labelnya konsisten per status, jadi sekali hafal ka
 | Status | Warna |
 | --- | --- |
 | Normal, Kesayangan | Biru |
-| Pacar (termasuk tetap pacar) | Pink |
+| Pacar | Pink |
+| Tetap Pacaran | Oranye |
 | Suami/Istri | Ungu |
 | Musuh | Merah |
 | Menolak Perasaan | Abu-abu |
+
+"Pacar" dan "Tetap Pacaran" sama-sama tampil sebagai label "Pacar" - yang membedakan adalah keputusan di momen komitmen: tetap berpacaran membuat warna hatinya berubah oranye.
 
 Karakter anak punya jalannya sendiri: hubungan bertumbuh menuju status **Kesayangan**, dan segala momen romantis tetap digantikan versi kekeluargaan. Karakter dewasa yang mengimpikan label khusus ini tidak akan mendapatkannya - Kesayangan eksklusif untuk karakter anak.
 
@@ -42,7 +45,7 @@ Halaman **Kalender** punya tiga tab: **Kalender**, **Ulang Tahun**, dan **Acara*
 
 Penanda ulang tahun tidak berhenti di halaman Kalender. Saat hari-H seorang karakter tiba, **emoji kue 🎂 muncul di samping namanya pada baris chat** (lihat [Chat Dasar](/fitur/chat-dasar)), jadi kamu langsung tahu harus ke sana duluan untuk mengucapkan selamat. Kedua-duanya memakai jadwal yang sama dan diperbarui otomatis dari data karakter.
 
-Di tab **Ulang Tahun** dan **Acara** tampil daftar yang bisa disaring lewat pencarian (*"Cari jadwal..."*); bila hasilnya kosong, tombol **"Atur ulang filter"** mengembalikan daftarnya. Data kalender disimpan sementara di perangkatmu agar halamannya terbuka dengan cepat.
+Di tab **Ulang Tahun** dan **Acara** tampil daftar yang bisa disaring lewat pencarian (*"Cari jadwal..."*); bila hasilnya kosong, tombol **"Atur ulang filter"** mengembalikan daftarnya. Data kalender disimpan sementara di sisi server (di-refresh tiap 24 jam) agar halamannya terbuka dengan cepat.
 
 ## Impor dari HaloStory AI
 
