@@ -24,7 +24,7 @@ Persona = who you are. System note = the rules of the game. A sentence like "cal
 
 ## How This Differs from the BYOK Custom Prompt
 
-Besides the two spaces above, there is one more in the [BYOK](/en/byok/) world: the **Custom System Prompt** in the BYOK Options. The similarity: both inject instructions into the model. The difference is clear in scope and mode:
+Besides the two spaces above, there is one more in the [BYOK](/en/byok/) world: the **Custom System Prompt** in the [BYOK Options](/en/byok/options/system-prompt). The similarity: both inject instructions into the model. The difference is clear in scope and mode:
 
 - **Persona & System Note** — tied to **one chat**, stored on your device, and working in **all modes** (the Mikazuki pool and BYOK alike).
 - **Custom System Prompt** — **global for all BYOK chats** and **only active in BYOK mode**; in system mode (the Mikazuki courier pool) this field is not sent from the UI and is discarded on the server.
