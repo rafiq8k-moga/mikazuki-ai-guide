@@ -43,4 +43,4 @@ Everything in your memories is sent to the model with every chat — that is a p
 On the Free plan, the Global Memories tab appears locked. Tapping it takes you to the `/membership` page to upgrade.
 :::
 
-Learn how memories work together with chat history in the Basic Parameters guide (BYOK).
+Learn how memories work together with chat history in the [Basic Parameters guide (BYOK)](/en/byok/parameter-dasar).
