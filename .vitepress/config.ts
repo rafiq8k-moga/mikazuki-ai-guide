@@ -18,6 +18,17 @@ export default defineConfig({
 
   // Konfigurasi Multibahasa (i18n)
   locales: {
+    en: {
+      label: 'English',
+      lang: 'en-US',
+      link: '/en/',
+      themeConfig: {
+        nav: [
+          { text: 'Home', link: '/en/' }
+        ]
+        // full sidebar added in the final task — pages land task by task
+      }
+    },
     root: {
       label: 'Indonesia',
       lang: 'id-ID',
