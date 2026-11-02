@@ -49,6 +49,6 @@ If you do want to try `top_p` as a replacement for `temperature`, move one axis 
 
 ## If the Slider Has No Impact
 
-Some providers or proxy servers **silently ignore `top_p`**: the slider moves, the value gets sent, but the model's behavior doesn't change at all. This is not a Mikazuki bug — it's each endpoint's own policy. If adjusting the value has no noticeable effect, check your provider's documentation, or see the **OpenAI Compatible** page for notes on non-native endpoint behavior.
+Some providers or proxy servers **silently ignore `top_p`**: the slider moves, the value gets sent, but the model's behavior doesn't change at all. This is not a Mikazuki bug — it's each endpoint's own policy. If adjusting the value has no noticeable effect, check your provider's documentation, or see the [**OpenAI Compatible**](/en/providers/openaicompat) page for notes on non-native endpoint behavior.
 
 An extra note for *local LLM* community users: there, a `top_k` parameter often shows up, which trims by the **number** of candidates (e.g. the top 40 candidates) rather than by probability mass like `top_p`. Mikazuki doesn't provide `top_k`, so don't mix the two up.

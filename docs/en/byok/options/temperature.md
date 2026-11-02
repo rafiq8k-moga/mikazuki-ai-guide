@@ -66,4 +66,4 @@ If both symptoms show up together, temperature isn't the only suspect — also c
 
 ## Provider Notes
 
-Not every server treats temperature the same way. Some *OpenAI-compatible* backends **silently ignore temperature** or execute it differently from the specification — the **OpenAI Compatible** page covers this trap. If the slider feels like it "does nothing", check your provider's documentation before blaming the number.
+Not every server treats temperature the same way. Some *OpenAI-compatible* backends **silently ignore temperature** or execute it differently from the specification — the [**OpenAI Compatible**](/en/providers/openaicompat) page covers this trap. If the slider feels like it "does nothing", check your provider's documentation before blaming the number.
