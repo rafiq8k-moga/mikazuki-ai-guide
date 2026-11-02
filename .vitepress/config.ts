@@ -35,6 +35,7 @@ export default defineConfig({
               { text: 'Data Karakter dan Memori', link: '/fitur/data-karakter' },
               { text: 'Chat Dasar', link: '/fitur/chat-dasar' },
               { text: 'Memori & Ringkasan', link: '/fitur/memori-dan-ringkasan' },
+              { text: 'Terjemahan & Tampilan', link: '/fitur/terjemahan-tampilan' },
             ]
           },
           {
