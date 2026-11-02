@@ -39,6 +39,7 @@ export default defineConfig({
               { text: 'Persona & System Note', link: '/fitur/persona-system-note' },
               { text: 'Group Chat', link: '/fitur/group-chat' },
               { text: 'Bond & Kalender', link: '/fitur/bond-dan-kalender' },
+              { text: 'VIP & Backup', link: '/fitur/membership-backup' },
             ]
           },
           {
