@@ -11,7 +11,7 @@
 For most anime and visual novel fans, interacting with a favorite character usually hits a wall: static, linear dialogue scripts. When *Large Language Model* (LLM) technology took off, a new hope appeared — what if you could casually chat with them, the way you send short messages every day?
 
 But most international platforms around at the time had three big problems:
-1. **Stiff, unnatural language**: Characters sounded like news articles or machine translations, losing all emotional touch, *slang*, or the cutesy anime tone.
+1. **Stiff, unnatural Indonesian language**: Characters sounded like news articles or machine translations, losing all emotional touch, *slang*, or the cutesy anime tone.
 2. **Cloud quota dependency & privacy**: Users were forced into expensive monthly subscriptions while their conversations sat on remote servers, outside their control.
 3. **Extreme censorship that breaks roleplay context**: Character personas often "shattered" and refused ordinary conversations simply because a safety filter was misread.
 
@@ -182,7 +182,7 @@ If you're unsure whether to use the official Mikazuki AI website or self-host th
 | Comparison | Mikazuki AI (Official Cloud) | Mikazuki AI Lite (Open Source on GitHub) |
 | :--- | :--- | :--- |
 | **Service Provider** | Rafiq8K Studio (Fully managed) | Community / Self-Hosted |
-| **Usage Cost** | Free (with a VIP account option) | 100% Free, commercially licensed |
+| **Usage Cost** | Free (with a VIP account option) | 100% Free, including for commercial use |
 | **Technical Requirements** | None; just open a browser on your phone/PC | Requires knowledge of Linux servers, Docker, & Git |
 | **Available AI Models** | System AI + BYOK flexibility | Must supply your own API Key (BYOK / Ollama) |
 | **Chat Storage** | Local IndexedDB + Encrypted Cloud Backup | Stored in a local database / private server |
