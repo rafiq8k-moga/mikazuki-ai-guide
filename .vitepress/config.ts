@@ -108,33 +108,6 @@ export default defineConfig({
           }
         ]
       }
-    },
-    en: {
-      label: 'English',
-      lang: 'en-US',
-      link: '/en/',
-      themeConfig: {
-        nav: [
-          { text: 'Home', link: '/en/' },
-          { text: 'Examples', link: '/en/markdown-examples' }
-        ],
-        sidebar: [
-          {
-            text: 'Examples',
-            items: [
-              { text: 'Markdown Examples', link: '/en/markdown-examples' },
-              { text: 'Runtime API Examples', link: '/en/api-examples' }
-            ]
-          }
-        ]
-      }
     }
-  },
-
-  themeConfig: {
-    // Pengaturan global yang berlaku untuk semua bahasa
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
   }
 })

@@ -12,14 +12,18 @@ hero:
       text: Memulai
       link: /pengenalan
     - theme: alt
-      text: Contoh API
-      link: /api-examples
+      text: Fitur-Fitur
+      link: /fitur/chat-dasar
 
 features:
-  - title: Mudah Digunakan
-    details: Antarmuka yang intuitif untuk semua kalangan pengguna.
-  - title: Fitur Lengkap
-    details: Didukung oleh teknologi AI terkini untuk pengalaman terbaik.
-  - title: Komunitas Aktif
-    details: Bergabunglah dengan ribuan pengguna lainnya.
+  - title: Chat Karakter AI berbahasa Indonesia
+    details: Riwayat pesan, pin chat, dan preferensi urutan tersimpan lokal di perangkatmu (IndexedDB) lewat halaman Chat Dasar.
+  - title: BYOK (17+ provider)
+    details: Bawa API key sendiri dan atur parameter model lanjutan dari 17+ penyedia AI, termasuk opsi OpenAI Compatible.
+  - title: Memori & Bond System
+    details: Ringkasan otomatis, Chat Memories, Global Memories lintas chat, serta ikatan (bond) berlevel yang berkembang tiap obrolan.
+  - title: Group Chat
+    details: Masukkan 2–255 karakter ke satu percakapan; satu pesanmu dijawab satu pembicara dengan warna khas anggota.
+  - title: Backup & Restore
+    details: Cadangan cloud terenkripsi yang hanya bisa dibaca olehmu, siap dipulihkan saat pindah ke perangkat baru.
 ---
