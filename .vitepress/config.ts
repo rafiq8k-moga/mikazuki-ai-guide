@@ -40,6 +40,7 @@ export default defineConfig({
               { text: 'Group Chat', link: '/fitur/group-chat' },
               { text: 'Bond & Kalender', link: '/fitur/bond-dan-kalender' },
               { text: 'VIP & Backup', link: '/fitur/membership-backup' },
+              { text: 'Karakter Buatanmu', link: '/fitur/karakter-buatanmu' },
             ]
           },
           {
