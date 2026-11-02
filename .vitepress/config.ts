@@ -42,6 +42,7 @@ export default defineConfig({
               { text: 'VIP & Backup', link: '/fitur/membership-backup' },
               { text: 'Karakter Buatanmu', link: '/fitur/karakter-buatanmu' },
               { text: 'Pengaturan & Akun', link: '/fitur/pengaturan' },
+              { text: 'Keamanan', link: '/fitur/keamanan' },
             ]
           },
           {
