@@ -37,6 +37,7 @@ export default defineConfig({
               { text: 'Memori & Ringkasan', link: '/fitur/memori-dan-ringkasan' },
               { text: 'Terjemahan & Tampilan', link: '/fitur/terjemahan-tampilan' },
               { text: 'Persona & System Note', link: '/fitur/persona-system-note' },
+              { text: 'Group Chat', link: '/fitur/group-chat' },
             ]
           },
           {
