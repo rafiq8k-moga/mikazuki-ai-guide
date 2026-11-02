@@ -36,6 +36,7 @@ export default defineConfig({
               { text: 'Chat Dasar', link: '/fitur/chat-dasar' },
               { text: 'Memori & Ringkasan', link: '/fitur/memori-dan-ringkasan' },
               { text: 'Terjemahan & Tampilan', link: '/fitur/terjemahan-tampilan' },
+              { text: 'Persona & System Note', link: '/fitur/persona-system-note' },
             ]
           },
           {
