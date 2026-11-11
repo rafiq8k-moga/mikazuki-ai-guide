@@ -4,41 +4,58 @@ title: Memories & Summaries
 
 # Memories & Summaries
 
-How does a character remember you after dozens of messages? Mikazuki AI answers that with a layered memory architecture working in the background: **automatic summaries** for the flow of the conversation, **Chat Memories** for important per-chat facts, and **Global Memories** for facts that span chats. The three work together — summaries keep the story going, while memories store the facts that must never be forgotten. Every management control lives in the **Summary** and **Memories** tabs of the [Character Data and Memories](/en/fitur/character-data) page.
+How does a character remember you after hundreds of messages? Mikazuki AI now maintains a **Past Events** record — a single summary of your chat's journey, **prepared automatically on the server** and kept fresh as the conversation unfolds. There is no button to press and nothing trapped on one device: open your chat from your phone or another laptop, and the memory is exactly the same.
 
-## Chat Memories
+Everything is managed from the **Past Events** tab on the [Character Data and Memories](/en/fitur/character-data) page. Two older memory layers keep working alongside it: **lorebooks** (manual knowledge you write yourself) and **long-term memory**, an automatic search over your older messages.
 
-**Chat Memories** are a list of important facts about you, specific to a single chat — a pet name, preferences, or life context you want the character to keep in mind. Everything is stored **locally on your device (IndexedDB)** and, as the note on that page says: *"Memories here are sent to the model every chat."* That means every time you send a message, the contents of these memories are injected into the model so the character stays consistent.
+## Past Events
 
-Capacity is **up to 10 items per chat, each up to 500 characters**. Adding a memory is as simple as typing into the "Add" field and pressing enter or the add button; deleting uses a short confirmation *"Delete this memory?"*, because *"Deleted memories are no longer sent to the model."* This list can also be updated automatically by the background summarizing process — when the system summarizes a conversation, it is allowed to store new facts worth remembering. In group chat, only Chat Memories are used.
+Past Events is a narrative record of your chat's journey: relationships that formed, big decisions, promises, and the moments that shaped the story. In the background, the system summarizes the parts of the conversation that have left the context window and **merges them with the previous record** — so the summary is always current without ever ballooning the prompt. When the record itself grows too long, it is summarized again in turn, keeping its size under control forever.
 
-## Global Memories (VIP)
+Because it lives on the server, the record is:
 
-**Global Memories** take it a step further: important facts stored **on the server** and **tied to that character**, so they carry over across chats with the same character. Mention something once — your favorite food, or the nickname you go by — and you never have to repeat it from scratch. Like Chat Memories, the note on the page explains: *"VIP global memories are also sent in this chat."* — they are sent along with every message.
+- **Consistent across devices** — no longer dependent on the browser you chatted from before.
+- **Always up to date** — refreshed far more often than the old per-20-message batch summaries.
+- **Fail-safe** — if summarization hits a snag, your chat keeps running normally; the record simply catches up a moment later.
 
-This feature is **VIP-exclusive**. On the Free plan, the Global Memories tab appears locked with the label *"VIP only"*; tapping it takes you to the `/membership` page to upgrade. For VIP users, memories can be deleted one by one through the same confirmation as Chat Memories, and the delete button is **temporarily disabled while summary generation is running** to avoid data conflicts.
+### Editing and resetting
 
-::: warning Global Memories are stored on the server
-Unlike Chat Memories, which live on your device, Global Memories are stored on Mikazuki AI's server. Store only facts you are comfortable sharing, and delete them whenever you change your mind.
+From the Past Events tab you can:
+
+- **Edit** — rewrite the record however you like (up to 6,000 characters). A manually edited record is marked as *your own* and **will not be overwritten** by automatic updates: the system respects your writing.
+- **Reset** — clear the record and let the system summarize again from zero. The confirmation says exactly what happens: *"Delete the past events record? The worker will summarize again from scratch."*
+
+The tab previews with *"A summary of this chat's journey, maintained automatically by the worker. Manual edits mark it as your own note."* — and VIP members see a *"VIP: richer detail"* badge.
+
+::: tip Why did my record stop updating?
+Once you edit it, the system deliberately stops overwriting. Want automatic summarization back? Press **Reset** — your written version is discarded and the record is rebuilt from the chat history.
 :::
 
-## Automatic Summaries
+## VIP: a bigger memory budget
 
-Every **20 complete messages**, the system automatically summarizes the conversation in the background, directly from the chat page — no button for you to press. The results appear in the Summary tab of the Character Data page, grouped per batch like "Messages 1-20", "Messages 21-40", and so on. Summaries are stored locally in IndexedDB and form the backbone of long-term memory: when the model is given context, the recap of the latest batch is sent along to keep token usage light.
+Everyone gets Past Events. VIP difference is no longer a locked feature — it's **capacity**:
 
-Batches that fail to generate don't disappear silently; they are marked *"This batch failed to summarize."* and are retried automatically on the next run. If you want to start from zero, use **selection mode** in the chat list (see [Basic Chat](/en/fitur/basic-chat)): select one or more chats, then tap **Re-Summary**. The app will firmly ask: *"Reset all summaries and memories for this chat, then regenerate? Global memories (VIP) will also be cleared."* Once finished you'll hear *"Summary reset for {count} chats."* — then the summaries are rebuilt from the entire history.
+- **VIP members** get a **larger memory budget** and **richer summaries** (more paragraphs retained before re-summarizing), so nuance and small details survive much longer.
+- **Free members** get the same full-featured summaries with a leaner budget.
+
+Lorebooks and long-term memory work identically for everyone, VIP or not.
+
+## What changed from the old system
+
+**Chat Memories** (a local per-chat fact list) and **Global Memories** (VIP cross-chat facts) have been **retired**. Both roles are now covered by Past Events plus automatic long-term memory: important facts you mention flow into the summary, and older messages remain findable through long-term memory search — without you maintaining lists by hand.
+
+If you used to write Chat Memories regularly, just mention things in chat — the system records them into the summary. For permanent rules that must always be active (speech style, world rules, mandatory facts), use a **[Lorebook](/en/fitur/character-data)** instead.
 
 ## Deleting
 
-When deleting, you don't have to wipe everything at once. The delete button — both in the chat list's selection mode and in the chat panel's three-dot menu — opens **Advanced delete**, a panel with options you tick yourself:
+**Advanced delete** (from the chat list's selection mode, or the three-dot menu in the chat panel) now offers:
 
-- **"Delete chat + summary"** — *"Local history, summaries and translations are removed permanently."* The chat disappears from the list along with everything derived from it.
-- **"Delete chat memories"** — *"Removes per-bot chat memories (chat can stay)."* Ideal when you only want the character to "forget" facts about you without losing the conversation history.
-- **"Delete global memories (server)"** — the VIP option to remove cross-chat memories on the server along with their local cache.
-- **"Reset bond"** — removes the bond data, returning the character to an unrecruited state.
+- **"Delete local chat"** — *"Local chat history and translations are permanently removed."*
+- **A summary option** — *"Deletes the server-side summary. The worker re-summarizes automatically."* Perfect when you want the character to "start on a clean page" without losing history: the chat stays, the record is rebuilt.
+- **"Reset bond"** — *"Removes the bond row - character returns to Not recruited."*
 
-Before executing, the panel asks for a two-stage confirmation with the warning: *"This action cannot be undone. Tap delete again to confirm."* If some options fail to run because of a network hiccup, the app reports how many items failed so you can try again.
+The two-stage confirmation still applies: *"This action cannot be undone. Tap delete again to confirm."*
 
 ::: tip Choose by intent
-Want "total amnesia"? Use **Delete chat + summary**. Want the character to forget facts about you while the story stays? Use **Delete chat memories** only. This separation puts data control fully in your hands.
+Want the app to feel like it "never met you"? **Delete local chat**. Want a fresh story while your data stays safe on the server? Reset the summary. Want the character to forget just one fact? Simply restate it in chat — the summary will catch up.
 :::

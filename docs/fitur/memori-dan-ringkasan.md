@@ -4,41 +4,58 @@ title: Memori & Ringkasan
 
 # Memori & Ringkasan
 
-Bagaimana cara karakter mengingatmu setelah puluhan pesan? Mikazuki AI menjawabnya dengan arsitektur memori bertingkat yang bekerja di latar belakang: **ringkasan otomatis** untuk alur percakapan, **Chat Memories** untuk fakta penting per chat, dan **Global Memories** untuk fakta lintas chat. Ketiganya bekerja bersama - ringkasan menjaga kelangsungan cerita, sementara memori menyimpan fakta yang wajib diingat. Semua tombol pengelolaannya ada di tab **Summary** dan **Memories** pada halaman [Data Karakter dan Memori](/fitur/data-karakter).
+Bagaimana karakter mengingatmu setelah ratusan pesan? Mikazuki AI merawatnya dengan **Peristiwa Lampau** — satu ringkasan perjalanan chat yang **disiapkan otomatis di server** dan diperbarui terus-menerus saat percakapan berjalan. Tidak ada tombol yang perlu kamu tekan, tidak ada data yang tersimpan hanya di satu perangkat: buka chat dari HP atau laptop lain, ingatannya tetap sama.
 
-## Chat Memories
+Pengelolaannya kini terpusat di tab **Peristiwa Lampau** pada halaman [Data Karakter dan Memori](/fitur/data-karakter). Selain itu, dua lapisan memori lama tetap bekerja: **lorebook** (pengetahuan manual yang kamu tulis sendiri) dan **memori jangka panjang** berbasis pencarian otomatis atas pesan-pesan lama.
 
-**Chat Memories** adalah daftar fakta penting tentang dirimu khusus untuk satu chat - panggilan sayang, preferensi, atau konteks hidup yang ingin karakter ingat terus. Semuanya tersimpan **lokal di perangkatmu (IndexedDB)** dan, sesuai kalimat petunjuk di halamannya: *"Memori di sini dikirim ke model setiap chat."* Artinya setiap kali kamu mengirim pesan, isi memori ini ikut disuntikkan ke model agar karakter tetap konsisten.
+## Peristiwa Lampau
 
-Kapasitasnya adalah **maksimal 10 item per chat, masing-masing maksimal 500 karakter**. Menambah memori cukup ketik di kolom "Tambah" lalu tekan enter atau tombol tambah; menghapusnya memakai konfirmasi singkat *"Hapus memori ini?"* karena *"Memori yang dihapus tidak lagi dikirim ke model."* Daftar ini juga bisa diperbarui otomatis oleh proses ringkasan di latar belakang - saat sistem meringkas percakapan, ia boleh menyimpan fakta baru yang layak diingat. Di group chat, hanya Chat Memories yang dipakai.
+Peristiwa Lampau adalah catatan naratif tentang perjalanan chatmu: hubungan yang terbentuk, keputusan penting, janji, dan momen yang membentuk cerita. Di latar belakang, sistem meringkas bagian percakapan yang sudah meninggalkan jendela konteks dan **menggabungkannya dengan catatan sebelumnya** — sehingga ringkasan selalu mutakhir tanpa pernah menambah beban sebesar-besarnya ke prompt. Ringkasannya juga ikut "diringkas ulang" saat terlalu panjang, jadi ukurannya terkendali selamanya.
 
-## Global Memories (VIP)
+Karena tersimpan di server, catatan ini:
 
-**Global Memories** melangkah lebih jauh: fakta penting yang tersimpan **di server** dan **terikat pada karakter tersebut**, sehingga bisa dikenalikan lintas chat dengan karakter yang sama. Cukup ceritakan sekali - misalnya makanan kesukaan atau nama panggilanmu - dan kamu tidak perlu mengulangnya dari awal. Seperti Chat Memories, catatan petunjuknya menjelaskan: *"Global memories VIP juga ikut terkirim di chat ini."*, dikirim bersamaan pada setiap pesan.
+- **Konsisten antar perangkat** — tidak lagi bergantung pada browser tempat kamu chat dulu.
+- **Selalu mutakhir** — diperbarui otomatis jauh lebih sering daripada ringkasan batch lama (per 20 pesan).
+- **Gagal aman** — kalau proses peringkasan bermasalah, chatmu tetap jalan normal; catatan hanya tertinggal sebentar.
 
-Fitur ini **khusus pengguna VIP**. Di paket Free, tab Global Memories tampil terkunci dengan keterangan *"Khusus VIP"*; men-getuknya akan mengantarmu ke halaman `/membership` untuk upgrade. Untuk VIP, memori bisa dihapus satu per satu lewat konfirmasi yang sama seperti Chat Memories, dan tombol hapus **nonaktif sementara saat proses pembuatan summary sedang berjalan** agar tidak terjadi konflik data.
+### Mengedit dan mengeset ulang
 
-::: warning Global Memories tersimpan di server
-Berbeda dari Chat Memories yang hidup di perangkatmu, Global Memories disimpan di server Mikazuki AI. Isi hanya fakta yang nyaman kamu bagikan, dan hapus kapan pun kamu berubah pikiran.
+Di tab Peristiwa Lampau kamu bisa:
+
+- **Edit** — tulis ulang catatan sesukamu (maksimal 6.000 karakter). Catatan yang kamu edit ditandai sebagai *catatanmu sendiri* dan **tidak akan ditimpa** oleh pembaruan otomatis: sistem menghormati tulisanmu.
+- **Reset** — hapus catatan dan sistem mulai meringkas ulang dari nol. Konfirmasinya persis seperti yang tampil: *"Hapus catatan peristiwa lampau? Worker akan meringkas ulang mulai nol."*
+
+Pratinjau tab akan menampilkan *"Ringkasan perjalanan chat ini, dirawat otomatis oleh worker. Edit manual menandainya sebagai catatanmu sendiri."* — dan untuk VIP ada lencana *"VIP: detail lebih kaya"*.
+
+::: tip Kenapa catatanku berhenti berubah?
+Setelah kamu mengedit, sistem sengaja berhenti menimpanya. Ingin sistem merangkum lagi otomatis? Tekan **Reset** — caranya kotak yang kamu tulis dibuang dan ringkasan dibangun ulang dari riwayat chat.
 :::
 
-## Ringkasan Otomatis
+## VIP: ruang ingat lebih besar
 
-Setiap **20 pesan lengkap**, sistem secara otomatis meringkas percakapan di latar belakang langsung dari halaman chat - tanpa tombol apa pun yang perlu kamu tekan. Hasilnya tampil di tab Summary halaman Data Karakter, dikelompokkan per batch seperti "Pesan 1-20", "Pesan 21-40", dan seterusnya. Ringkasan ini tersimpan lokal di IndexedDB dan menjadi tulang punggung ingatan jangka panjang: saat model diberi konteks, recap batch terakhir yang dikirim agar token tetap hemat.
+Pengguna mendapatkan Peristiwa Lampau yang sama, bedanya bukan pada fitur terkunci lagi melainkan **kapasitas**:
 
-Batch yang gagal dibuat tidak hilang diam-diam; ia ditandai *"Batch ini gagal diringkas."* dan akan dicoba ulang otomatis pada pengerjaan berikutnya. Jika kamu ingin memulai dari nol, gunakan mode **seleksi** di daftar chat (lihat [Chat Dasar](/fitur/chat-dasar)): pilih satu atau beberapa chat, lalu tekan **Ringkas Ulang**. Aplikasi akan bertegas menanyakan: *"Reset semua ringkasan dan memori untuk chat ini, lalu buat ulang? Memori global (VIP) juga akan dihapus."* Setelah selesai muncul kabar *"Ringkasan direset untuk {count} chat."* - lalu ringkasan dibuat ulang dari seluruh riwayat.
+- **VIP** mendapat **budget memori lebih besar** dan ringkasan yang **lebih detail** (lebih banyak paragraf yang dipertahankan sebelum diringkas ulang), sehingga nuansa cerita dan detail kecil bertahan lebih lama.
+- **Free** tetap mendapat ringkasan penuh dengan budget yang lebih ramping.
+
+Semua pengguna, VIP maupun bukan, tetap menikmati lorebook dan memori jangka panjang yang sama.
+
+## Yang berubah dari sistem lama
+
+Fitur **Chat Memories** (daftar fakta lokal per chat) dan **Global Memories** (fakta lintas chat khusus VIP) **sudah dilepas**. Peran keduanya kini ditangani Peristiwa Lampau plus memori jangka panjang otomatis: fakta-fakta penting yang pernah kamu sebut ikut masuk ringkasan, dan pesan-pesan lama tetap bisa ditemukan kembali lewat pencarian memori jangka panjang — tanpa kamu harus mencatatnya satu per satu.
+
+Bila sebelumnya kamu rutin menulis Chat Memories, sekarang cukup ceritakan di chat: sistem yang mencatatnya ke ringkasan. Untuk aturan permanen yang harus selalu aktif (gaya bicara, aturan dunia, fakta wajib), gunakan **[Lorebook](/fitur/data-karakter)**.
 
 ## Menghapus
 
-Saat menghapus, kamu tidak harus menghapus semuanya sekaligus. Tombol hapus - baik di mode seleksi daftar chat maupun menu titik tiga pada panel chat - membuka **Hapus lanjutan**, satu panel berisi opsi yang bisa kamu centang sendiri:
+**Hapus lanjutan** (dari mode seleksi daftar chat, atau menu titik tiga di panel chat) kini berisi:
 
-- **"Hapus chat + summary"** - *"Riwayat lokal, summary, dan terjemahan dihapus permanen."* Chat hilang dari daftar beserta seluruh turunannya.
-- **"Hapus chat memories"** - *"Menghapus chat memories per bot (chat boleh tetap ada)."* Cocok saat kamu hanya ingin karakter "melupakan" fakta-faktamu, tanpa kehilangan riwayat obrolan.
-- **"Hapus global memories (server)"** - opsi VIP untuk menghapus memori lintas chat di server beserta cache lokalnya.
-- **"Reset bond"** - menghapus data ikatan sehingga karakter kembali berstatus belum direkrut.
+- **"Hapus chat lokal"** — *"Riwayat chat lokal dan terjemahan dihapus permanen."*
+- **Opsi ringkasan** — *"Menghapus ringkasan server. Worker meringkas ulang otomatis."* Cocok saat kamu ingin karakter "mulai dari halaman bersih" tanpa kehilangan riwayat: chat utuh, catatan dibangun ulang.
+- **"Reset bond"** — *"Menghapus row bond - karakter kembali Belum direkrut."*
 
-Sebelum eksekusi, panel meminta konfirmasi dua tahap dengan peringatan: *"Tindakan ini tidak dapat dibatalkan. Tekan hapus sekali lagi untuk konfirmasi."* Bila sebagian opsi gagal dijalankan karena gangguan jaringan, aplikasi melaporkan berapa item yang gagal agar bisa dicoba lagi.
+Konfirmasi dua tahap tetap berlaku: *"Tindakan ini tidak dapat dibatalkan. Tekan hapus sekali lagi untuk konfirmasi."*
 
 ::: tip Pilih sesuai niat
-Ingin "amnesia total"? Pakai **Hapus chat + summary**. Ingin karakter lupa fakta tentangmu tapi cerita tetap ada? Pakai **Hapus chat memories** saja. Pemisahan ini membuat kontrol data berada penuh di tanganmu.
+Ingin aplikasi terasa "belum pernah kenal"? **Hapus chat lokal**. Ingin cerita dimulai segar tapi data aman di server? Reset ringkasan. Ingin karakter melupakan satu fakta saja? Cukup jelaskan ulang di chat — ringkasan akan ikut diperbarui.
 :::
