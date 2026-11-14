@@ -39,6 +39,27 @@ Warna hati, chip ikatan, dan labelnya konsisten per status, jadi sekali hafal ka
 
 Karakter anak punya jalannya sendiri: hubungan bertumbuh menuju status **Kesayangan**, dan segala momen romantis tetap digantikan versi kekeluargaan. Karakter dewasa yang mengimpikan label khusus ini tidak akan mendapatkannya - Kesayangan eksklusif untuk karakter anak.
 
+## Jalur Cabang: Cerita Setelah Pernikahan
+
+Level ikatan kini punya **batas 400** - dan pernikahan bukan akhir dari cerita. Begitu kalian resmi menjadi suami/istri, terbuka **jalur cabang**: rangkaian momen spesial yang dipicu secara alami lewat obrolan. Kamu tidak perlu menekan tombol apa pun - cukup jalanikan ceritanya, dan saat momennya pas, karakter akan menandainya sendiri. Setiap momen yang selesai memberi XP tambahan (dengan jeda 12 jam untuk momen yang sama, agar tetap terasa istimewa), dan label hubunganmu ikut naik melewati "Suami/Istri":
+
+| Tahap | Label |
+| --- | --- |
+| 1 | Suami/Istri |
+| 2 | Pasangan Sejati |
+| 3 | Belahan Jihi |
+| 4 | Takdir |
+| 5 | Kekal |
+| 6 | Ikatan Akhir |
+
+Momen-momennya antara lain **hari jadi pernikahan**, **perjalanan bersama**, **pengulangan janji**, **pengorbanan**, **warisan**, dan **janji kekal** - dengan puncaknya, **Ikatan Akhir**, yang hanya terbuka di level 400. Sementara itu, karakter anak punya jalur kekeluargaannya sendiri: momen-momen hangat seperti menghibur, petualangan kecil, dan makan malam keluarga yang menaiki labelnya dari **Kesayangan** menjadi **Sahabat Sejati**, **Keluarga Kecil**, hingga **Tak Terpisahkan**.
+
+Semua momen ini bisa kamu pantau dari tab **Hubungan** di halaman [Data Karakter dan Memori](/fitur/data-karakter): tangga hubungan bergaya RPG yang menunjukkan tahap yang sudah kamu lalui, tahap berikutnya beserta syaratnya, dan tahap yang masih terkunci.
+
+## Mereset Ikatan
+
+Ingin mengulang kisah dengan seorang karakter dari awal? Reset ikatan kini hidup di **Hapus lanjutan** (mode seleksi daftar chat, atau menu titik tiga di panel chat). Opsinya selalu terlihat, tapi baru bisa dicentang setelah **"Hapus chat lokal"** dan **"hapus ringkasan server"** keduanya ikut dicentang - memastikan kisahnya benar-benar dimulai dari halaman kosong, bukan sekadar ikatannya yang dihapus. Setelah ikatan direset, seluruh riwayat jalur cabangnya ikut hilang dan bond dibangun ulang dari nol.
+
 ## Kalender
 
 Halaman **Kalender** punya tiga tab: **Kalender**, **Ulang Tahun**, dan **Acara**. Tab Kalender menampilkan grid bulanan dengan titik merah kecil di bawah tiap tanggal yang punya acara; ketuk tanggalnya untuk melihat daftar ulang tahun karakter di hari itu, setiap entri ditandai ikon kue dan label *"Ulang Tahun Karakter"*. Sebuah daftar **"Upcoming 30 hari"** merangkum pertemuan yang menyusul, misalnya `15 Nov · 13 hari lagi` - dan bila jatuh hari ini, ditulis persis *"hari ini"*.

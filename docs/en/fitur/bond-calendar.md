@@ -39,6 +39,27 @@ The heart color, the bond chip, and the label are consistent per status, so once
 
 Child characters have a path of their own: the relationship grows toward the **Kesayangan (Favorite)** status, and every romantic moment is always replaced with a family version. Adult characters who dream of this special label will not get it — Kesayangan (Favorite) is exclusive to child characters.
 
+## Branch Paths: The Story After Marriage
+
+Bond levels now cap at **400** — and marriage is no longer the end of the story. Once you are officially married, a **branch path** opens: a series of special moments triggered naturally through conversation. There is no button to press — just live the story, and when the moment is right, the character marks it themselves. Each completed moment grants bonus XP (with a 12-hour cooldown per moment, so it stays special), and your relationship label climbs beyond "Spouse":
+
+| Stage | Label |
+| --- | --- |
+| 1 | Spouse (Suami/Istri) |
+| 2 | Pasangan Sejati (True Partner) |
+| 3 | Belahan Jihi (Soulmate) |
+| 4 | Takdir (Destiny) |
+| 5 | Kekal (Eternal) |
+| 6 | Ikatan Akhir (Final Bond) |
+
+The moments include your **wedding anniversary**, **journeys together**, **renewing your vows**, **sacrifices**, **legacy**, and the **eternal vow** — culminating in the **Final Bond**, which only unlocks at level 400. Meanwhile, child characters have their own family path: warm moments like comforting, small adventures, and family dinners raise their label from **Kesayangan (Favorite)** to **Sahabat Sejati (True Friend)**, **Keluarga Kecil (Little Family)**, and finally **Tak Terpisahkan (Inseparable)**.
+
+You can track all of these moments from the **Bond** tab on the [Character Data and Memories](/en/fitur/character-data) page: an RPG-style relationship ladder showing the stages you have completed, the next stage and its requirement, and the ones still locked.
+
+## Resetting a Bond
+
+Want to start a character's story over from scratch? Bond reset now lives in **Advanced delete** (the chat list's selection mode, or the three-dot menu in the chat panel). The option is always visible, but it can only be checked once both **"Delete local chat"** and the **server summary deletion** are checked too — making sure the story truly starts on a blank page rather than just erasing the bond. After a reset, the entire branch history is gone and the bond is rebuilt from zero.
+
 ## Calendar
 
 The **Calendar** page has three tabs: **Calendar**, **Birthday**, and **Event**. The Calendar tab shows a monthly grid with a small red dot under each date that has an entry; tap the date to see the list of character birthdays that day, each entry marked with a cake icon and the label *"Character Birthday"*. An **"Upcoming 30 days"** list sums up the meetings ahead, for example `15 Nov · 13 days to go` — and when the date falls today, it reads exactly *"today"*.
