@@ -54,6 +54,20 @@ Level ikatan kini punya **batas 400** - dan pernikahan bukan akhir dari cerita. 
 
 Momen-momennya antara lain **hari jadi pernikahan**, **perjalanan bersama**, **pengulangan janji**, **pengorbanan**, **warisan**, dan **janji kekal** - dengan puncaknya, **Ikatan Akhir**, yang hanya terbuka di level 400. Sementara itu, karakter anak punya jalur kekeluargaannya sendiri: momen-momen hangat seperti menghibur, petualangan kecil, dan makan malam keluarga yang menaiki labelnya dari **Kesayangan** menjadi **Sahabat Sejati**, **Keluarga Kecil**, hingga **Tak Terpisahkan**.
 
+## Jalur Pacar: Momen Sebelum Menikah
+
+Masih pacaran pun punya ceritanya sendiri. Begitu kalian resmi berpacar (atau sepakat tetap pacaran di momen komitmen), jalur **dating** terbuka - dengan mekanisme yang sama: momen spesial yang dipicu alami lewat obrolan, XP tambahan per momen, dan jeda 12 jam agar tetap istimewa. Label kalian menaiki tangganya:
+
+| Tahap | Label |
+| --- | --- |
+| 1 | Pacar |
+| 2 | Kekasih |
+| 3 | Belahan Hati |
+| 4 | Jodoh Hati |
+| 5 | Cinta Sejati |
+
+Momen-momennya: **kencan pertama**, **cincin janji**, **bertemu orang tua**, dan **janji abadi** sebagai puncak tangganya - plus momen ringan yang murni memberi XP: **nonton bareng**, **kejutan hadiah**, **foto bersama**, dan **menatap bintang**. Tidak ada syarat level khusus di jalur ini; cukup jalanikan kisah kalian. Dan saat kalian akhirnya menikah, jalur pacar tutup dengan rapi: progres cabangnya dimulai segar di jalur pernikahan - sejarah momen-momen kalian tetap tersimpan.
+
 Semua momen ini bisa kamu pantau dari tab **Hubungan** di halaman [Data Karakter dan Memori](/fitur/data-karakter): tangga hubungan bergaya RPG yang menunjukkan tahap yang sudah kamu lalui, tahap berikutnya beserta syaratnya, dan tahap yang masih terkunci.
 
 ## Mereset Ikatan

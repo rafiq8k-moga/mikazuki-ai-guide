@@ -54,6 +54,20 @@ Bond levels now cap at **400** — and marriage is no longer the end of the stor
 
 The moments include your **wedding anniversary**, **journeys together**, **renewing your vows**, **sacrifices**, **legacy**, and the **eternal vow** — culminating in the **Final Bond**, which only unlocks at level 400. Meanwhile, child characters have their own family path: warm moments like comforting, small adventures, and family dinners raise their label from **Kesayangan (Favorite)** to **Sahabat Sejati (True Friend)**, **Keluarga Kecil (Little Family)**, and finally **Tak Terpisahkan (Inseparable)**.
 
+## The Dating Path: Moments Before Marriage
+
+Dating has a story of its own too. Once you are officially dating (or agree to keep dating at the commitment moment), the **dating** path opens — same mechanics: special moments triggered naturally through conversation, bonus XP per moment, and a 12-hour cooldown to keep them special. Your label climbs its own ladder:
+
+| Stage | Label |
+| --- | --- |
+| 1 | Pacar (Boy/Girlfriend) |
+| 2 | Kekasih (Sweetheart) |
+| 3 | Belahan Hati (Half of the Heart) |
+| 4 | Jodoh Hati (Heart's Match) |
+| 5 | Cinta Sejati (True Love) |
+
+The moments: your **first date**, a **promise ring**, **meeting the parents**, and the **eternal promise** at the top of the ladder — plus lighter moments that purely grant XP: a **movie night**, a **surprise gift**, **photos together**, and **stargazing**. There is no level requirement on this path; just live your story. And when you finally marry, the dating path closes neatly: the branch progress starts fresh on the marriage path — your moment history stays saved.
+
 You can track all of these moments from the **Bond** tab on the [Character Data and Memories](/en/fitur/character-data) page: an RPG-style relationship ladder showing the stages you have completed, the next stage and its requirement, and the ones still locked.
 
 ## Resetting a Bond

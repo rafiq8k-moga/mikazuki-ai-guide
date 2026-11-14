@@ -14,6 +14,8 @@ Sistem bond baru saja dapat pembaruan besar!
 
 Karakter anak pun tak ketinggalan: jalur kekeluargaannya sendiri, dari Kesayangan hingga **Tak Terpisahkan**. 🧸
 
+Dan untuk yang masih pacaran: **jalur dating** kini terbuka juga! Kencan pertama, cincin janji, bertemu orang tua, hingga **Cinta Sejati** — momen spesial lewat obrolan yang menaiki labelmu sebelum menikah. 💘
+
 Semua bisa kamu pantau di tab **Hubungan** (baru!) di halaman Data Karakter — tangga hubungan bergaya RPG: yang sudah kaulalui, yang berikutnya, dan yang masih terkunci.
 
 Bonus: ikatan sekarang bisa direset lewat **Hapus lanjutan** (aktif setelah hapus chat + hapus ringkasan dicentang) — mulai ulang kisah kapan pun kamu mau.
@@ -28,4 +30,4 @@ https://guide.mikazuki.ai.id/en/fitur/bond-calendar
 
 ## Versi super-pendek (untuk reply / crosspost)
 
-Update bond! Level kini cap 400 + jalur cabang setelah menikah: momen spesial alami lewat obrolan menaikkan labelmu sampai Ikatan Akhir, karakter anak punya jalur kekeluargaan sendiri, plus tab Hubungan baru buat memantau semuanya. Panduan: https://guide.mikazuki.ai.id/fitur/bond-dan-kalender
+Update bond! Level kini cap 400 + jalur cabang setelah menikah: momen spesial alami lewat obrolan menaikkan labelmu sampai Ikatan Akhir, jalur dating untuk yang masih pacar (sampai Cinta Sejati), karakter anak punya jalur kekeluargaan sendiri, plus tab Hubungan baru buat memantau semuanya. Panduan: https://guide.mikazuki.ai.id/fitur/bond-dan-kalender
