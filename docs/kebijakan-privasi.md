@@ -69,7 +69,7 @@ We share data only where necessary to provide the service:
 |---|---|---|
 | **AI Providers** (Google Gemini, Anthropic Claude, Mistral AI, NVIDIA NIM, etc.) | Process AI chat responses | Your chat messages (processed in real time, not stored) |
 | **Brevo** | Send verification and password reset emails | Your email address |
-| **Trakteer** | Process donations (VIP) | Your Trakteer transaction ID (no financial data handled by us) |
+| **Creem** | Process VIP payments | Your email address and order ID (no card or financial data handled by us) |
 | **Discord** | Community support and child safety alerts | Anonymized alert information (only in case of policy violations) |
 | **Cloudflare** | CDN, DNS, DDoS protection | Standard connection metadata (IP address) |
 
@@ -153,4 +153,4 @@ If you have any questions, concerns, or requests regarding this Privacy Policy, 
 
 ---
 
-*This Privacy Policy was last updated on July 25, 2026.*
+*This Privacy Policy was last updated on November 18, 2026.*

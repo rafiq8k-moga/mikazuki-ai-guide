@@ -77,7 +77,7 @@ HaloStory AI kept accelerating with new social features:
 * **Birthday Calendar**: An interactive in-app calendar that reminds you when your favorite characters are celebrating their birthday, complete with special party dialog.
 
 ### The Critical Point: Server Cost Crisis & Token Scalability
-HaloStory AI's popularity turned out to be a double-edged sword. Thousands of active daily users produced millions of LLM tokens on the centralized model. As users leaned into group chats and long stories, the server's API bill swelled to millions of rupiah per month — far beyond what came in as voluntary donations through the Trakteer platform.
+HaloStory AI's popularity turned out to be a double-edged sword. Thousands of active daily users produced millions of LLM tokens on the centralized model. As users leaned into group chats and long stories, the server's API bill swelled to millions of rupiah per month — far beyond what came in as voluntary donations.
 
 The server frequently suffered *overload*, message queues piled up, and *streaming* latency crawled. The developer faced a hard dilemma: **shut the project down for good, or completely rebuild its business and technology model?**
 
@@ -202,13 +202,13 @@ Mikazuki AI rejects the disruptive pop-up-ad business model — and refuses to s
 * **Visual Features (Photo Upload & Stickers)**: Send images that the character can analyze directly.
 * **Priority Character Requests**: Requests to add new characters to the cloud catalog are processed with top priority.
 
-For users who want to contribute or upgrade their account, support flow through the official donation platform **Trakteer**.
+For users who want to upgrade their account, VIP can be purchased through the official payment gateway **Creem** (credit/debit card, USD).
 
 ### Official Links & Help Channels
 * **Main App Website**: [https://mikazuki.ai.id](https://mikazuki.ai.id)
 * **Documentation Hub / Wiki**: This Wiki
 * **Official Discord Community**: [https://s.my-bini.my.id/discord](https://s.my-bini.my.id/discord)
-* **Sponsorship / Trakteer**: [https://trakteer.id/r8kstudio](https://trakteer.id/r8kstudio)
+* **VIP / Purchases**: Membership page in the app (payments via Creem)
 * **Official Support Email**: `support@r8kstudio.net`
 * **Open Source Repository**: [GitHub Rafiq8K Studio](https://github.com/rafiq8k)
 

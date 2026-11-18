@@ -69,23 +69,29 @@ You must verify your email address via a one-time password (OTP) sent to your re
 
 ---
 
-## 6. VIP / Donations
+## 6. VIP / Purchases
 
 Mikazuki AI offers a **VIP status** that provides certain benefits such as priority AI model access and exclusive badges.
 
-### 6.1 Donation Platform
-VIP status is granted through donations made via **Trakteer** (trakteer.id), a third-party donation platform. All donations are processed by Trakteer under their own terms and policies.
+### 6.1 Payment Gateway
+VIP status is obtained through a purchase made via **Creem** (creem.io), our third-party payment gateway. Payments are processed by Creem under their own terms and policies; we never receive or store your card details.
 
-### 6.2 Non-Refundable
-All donations are **final and non-refundable**. VIP status is a voluntary contribution to support the project, not a purchase of goods or services.
+### 6.2 Prices & Currency
+Prices are shown in USD (converted to IDR pricing where applicable). The price displayed at checkout is the price you pay; applicable taxes or fees charged by the payment processor may appear on the hosted checkout page.
 
-### 6.3 Manual Granting
-VIP status is granted manually by administrators. While we strive to process grants promptly, we do not guarantee instant activation.
+### 6.3 One-Time Payment, No Auto-Renewal
+VIP purchases are one-time payments. VIP status has a defined duration and does **not** auto-renew. There is no obligation to purchase to use the Service.
 
-### 6.4 No Subscription Obligation
-VIP status has a defined duration and does not auto-renew. There is no obligation to continue donating to use the Service.
+### 6.4 Activation
+VIP status is activated automatically after the payment is confirmed (via payment notification or status verification). If activation does not occur within a reasonable time after payment, contact us with your order key.
 
-### 6.5 No Special Legal Rights
+### 6.5 Non-Refundable
+Completed VIP purchases are **final and non-refundable**, except where mandatory law requires otherwise.
+
+### 6.6 Fraud Prevention
+Payments are verified against the order amount, currency, and gateway signature. Transactions that fail verification may be placed on hold pending manual review, and VIP status will not be granted until the review completes.
+
+### 6.7 No Special Legal Rights
 VIP status does not grant any ownership, equity, or special legal rights in the Service or its intellectual property.
 
 ---
@@ -202,7 +208,7 @@ Mikazuki AI integrates with several third-party services. Your use of these serv
 | **NVIDIA NIM API** | AI chat provider | https://build.nvidia.com/ |
 | **OpenRouter API** | AI chat provider | https://openrouter.ai/ |
 | **DeepSeek API** | AI chat provider | https://deepseek.com/ |
-| **Trakteer** | Donation platform | https://trakteer.id |
+| **Creem** | Payment gateway (VIP purchases) | https://creem.io |
 | **Cloudflare** | CDN, DNS, Workers | https://www.cloudflare.com/ |
 | **Discord** | Community & support | https://discord.com/ |
 | **Brevo** | Email delivery | https://www.brevo.com/ |
@@ -284,8 +290,7 @@ If you have any questions, concerns, or requests regarding these Terms, please c
 - **Email:** support@r8kstudio.net
 - **Developer:** Rafiq8K Studio
 - **Discord:** [Join our community](https://s.my-bini.my.id/discord)
-- **Donation:** https://trakteer.id/r8kstudio
 
 ---
 
-*These Terms of Service were last updated on July 25, 2026.*
+*These Terms of Service were last updated on November 18, 2026.*

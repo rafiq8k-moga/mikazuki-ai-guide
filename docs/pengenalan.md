@@ -77,7 +77,7 @@ HaloStory AI terus melesat dengan penambahan fitur-fitur sosial:
 * **Kalender Ulang Tahun**: Kalender interaktif di dalam aplikasi yang mengingatkan pengguna jika karakter favorit mereka sedang merayakan hari ulang tahun, lengkap dengan dialog perayaan khusus.
 
 ### Titik Kritis: Krisis Biaya Server & Skalabilitas Token
-Popularitas HaloStory AI ternyata menjadi pedang bermata dua. Ribuan pengguna aktif setiap harinya menghasilkan jutaan token LLM pada model server terpusat. Ketika pengguna memanfaatkan obrolan grup dan cerita panjang, biaya tagihan API server membengkak hingga jutaan rupiah per bulan—jauh melampaui kemampuan donasi sukarela yang masuk melalui platform Trakteer.
+Popularitas HaloStory AI ternyata menjadi pedang bermata dua. Ribuan pengguna aktif setiap harinya menghasilkan jutaan token LLM pada model server terpusat. Ketika pengguna memanfaatkan obrolan grup dan cerita panjang, biaya tagihan API server membengkak hingga jutaan rupiah per bulan—jauh melampaui kemampuan donasi sukarela yang masuk.
 
 Server sering kali mengalami *overload*, antrean pesan menumpuk, dan latensi *streaming* menjadi sangat lambat. Pengembang dihadapkan pada dilema besar: **apakah harus mematikan proyek ini selamanya, atau mengubah total model bisnis dan teknologinya?**
 
@@ -202,13 +202,13 @@ Mikazuki AI menolak model bisnis berbasis iklan pop-up yang mengganggu atau menj
 * **Fitur Visual (Upload Foto & Stiker)**: Kemampuan mengirimkan gambar yang dapat dianalisis langsung oleh karakter.
 * **Prioritas Request Karakter**: Permintaan penambahan karakter baru di katalog cloud diproses dengan prioritas utama.
 
-Bagi pengguna yang ingin berkontribusi atau meng-upgrade akun, dukungan dapat disalurkan melalui platform donasi resmi **Trakteer**.
+Bagi pengguna yang ingin meng-upgrade akun, VIP dapat dibeli melalui gerbang pembayaran resmi **Creem** (kartu kredit/debit, USD).
 
 ### Tautan Resmi & Saluran Bantuan
 * **Website Aplikasi Utama**: [https://mikazuki.ai.id](https://mikazuki.ai.id)
 * **Pusat Dokumentasi / Wiki**: Halaman Wiki ini
 * **Komunitas Discord Resmi**: [https://s.my-bini.my.id/discord](https://s.my-bini.my.id/discord)
-* **Dukungan Sponsor / Trakteer**: [https://trakteer.id/r8kstudio](https://trakteer.id/r8kstudio)
+* **VIP / Pembelian**: Halaman Membership di aplikasi (pembayaran via Creem)
 * **Email Dukungan Resmi**: `support@r8kstudio.net`
 * **Repository Open Source**: [GitHub Rafiq8K Studio](https://github.com/rafiq8k)
 
