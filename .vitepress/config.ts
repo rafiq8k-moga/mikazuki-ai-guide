@@ -103,7 +103,8 @@ export default defineConfig({
             collapsed: false,
             items: [
               { text: 'Privacy Policy', link: '/en/privacy-policy' },
-              { text: 'Terms of Service', link: '/en/terms-of-service' }
+              { text: 'Terms of Service', link: '/en/terms-of-service' },
+              { text: 'Emotion Images Permission', link: '/en/emotion-images-creator-permission' }
             ]
           }
         ]
@@ -194,7 +195,8 @@ export default defineConfig({
             collapsed: false,
             items: [
               { text: 'Kebijakan Privasi', link: '/kebijakan-privasi' },
-              { text: 'Syarat dan Ketentuan', link: '/syarat-ketentuan' }
+              { text: 'Syarat dan Ketentuan', link: '/syarat-ketentuan' },
+              { text: 'Izin Gambar Emosi', link: '/izin-penggunaan-gambar-emosi' }
             ]
           }
         ]
